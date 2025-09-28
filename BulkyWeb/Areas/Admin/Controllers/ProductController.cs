@@ -36,7 +36,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
                 })
                 
             };
-            if(id == null || id == 0)
+            if(id == null || id==0)
             {
                 //create product
                 return View(productVM);
